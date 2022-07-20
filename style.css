@@ -5,7 +5,7 @@
 /* common styles or utilities */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(244, 250, 255);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -56,12 +56,12 @@ body {
 
 .banner .banner-image {
     width: 50%;
-    margin: 50px;
+    margin: 30px;
     margin-bottom: 0;
 }
 
 .banner-image img {
-    width: 100%;
+    width: 90%;
 }
 
 .watch-btn {
@@ -184,6 +184,38 @@ body {
     color: rgb(73, 73, 73);
     margin-left: 10px;
 }
+
+
+
+
+/*--------------------------
+Upcoming Match Page styles
+---------------------------*/
+.match {
+    height: 240px;
+    width: 310px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.flags {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#btn-upcoming {
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+
+
 
 
 /* footer styles */
